@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+.head {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 55px;
+    color: white;
+}
+
+li {
+    list-style: lower-roman;
+}
+
+.headd {
+    color: white;
+    font-weight: bold;
+}
+
+#enter {
+    color: rgb(39, 177, 73);
+    border: none;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+
+#enter:hover {
+    color: black;
+    background-color: aqua;
+}
+
+#userinput {
+    width: 115px;
+}
+
+#first {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+#wrap {
+    width: 80%;
+    margin: auto;
+    background: rgb(116, 248, 248);
+    overflow: hidden;
+    padding: 15px;
+    border: rgb(226, 101, 122) 4px dotted;
+}
